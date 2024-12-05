@@ -15,7 +15,6 @@ import java.util.Map;
 
 
 @RestController
-//http://localhost:8080/
 @RequestMapping("rh-app")
 @CrossOrigin(value = "http://localhost:3000")
 public class EmployeeController {
@@ -26,7 +25,6 @@ public class EmployeeController {
     public static final Logger LOGGER =
             LoggerFactory.getLogger(EmployeeController.class);
 
-    //http://localhost:8080/rh-app/employees
     @GetMapping("/employees")
     public List<Employee> listEmployees(){
         List<Employee> listEmployee = iEmployeeService.listEmployee();
