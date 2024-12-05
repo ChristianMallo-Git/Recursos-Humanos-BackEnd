@@ -3,4 +3,6 @@ Aplicación web de recursos humanos en la que puedes: añadir un empleado nuevo 
 
 En este ejercicio para la parte del FrontEnd utilizaremos la librería de React (los componentes se comunicaran con el BackEnd mediante la librería de Axios). Para la parte del BackEnd utilizaremos Spring tanto para la creación del Controlador REST como para la capa de servicio, para la capa de datos utilizaremos Jpa con Hibernate. Para almacenar nuestra información utilizaremos la base de datos de MySQL. Además, utilizaremos la librería Lombok con el fin de reducir el código boilerplate.
 
+La parte del FrontEnd la podrás encontrar en el repositorio público Recursos-Humanos-FrontEnd.
+
 Muchas gracias a todo lector que esté disfrutando con mis primeros pasos en desarrollo de software y control de versiones.
